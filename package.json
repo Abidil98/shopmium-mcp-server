@@ -1,0 +1,13 @@
+{
+  "name": "shopmium-mcp-server",
+  "version": "1.0.0",
+  "description": "Custom MCP server for Shopmium and Quoty apps",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@mobilenext/mobile-mcp": "latest",
+    "@modelcontextprotocol/server-sdk": "latest"
+  }
+}
