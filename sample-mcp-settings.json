@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "github.com/mobile-next/mobile-mcp": {
+      "timeout": 60,
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mobilenext/mobile-mcp@latest"
+      ],
+      "transportType": "stdio"
+    },
+    "github.com/Abidil98/shopmium-mcp-server": {
+      "timeout": 60,
+      "command": "node",
+      "args": [
+        "C:/Users/Admin/shopmium-mcp-server/index.js"
+      ],
+      "transportType": "stdio"
+    }
+  }
+}
